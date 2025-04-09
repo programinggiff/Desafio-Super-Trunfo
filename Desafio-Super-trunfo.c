@@ -7,7 +7,7 @@ int main() {
 
      printf("***Desafio  Países***\n");
      // Declaração das variáveis para primeira carta.
-     char estado1[4];
+     char estado1[2];
      char codigo1[4];
      char cidade1[50];
      int populacao1;
@@ -18,7 +18,7 @@ int main() {
      float pib_per_capita1;
 
      // Declaração das variantes para segunda carta.
-     char estado2[4];
+     char estado2[2];
      char codigo2[4];
      char cidade2[50];
      int populacao2;
@@ -26,12 +26,13 @@ int main() {
      float pib2;
      int pontosTuristicos2;
      float densidade2;
-     float pib_per_catita2;
+     float pib_per_capita2;
  
       // Cadastro da primeira carta.
      printf(" \nCadastro da primeira carta:\n");
      printf(" Digite o estado (A-H):");  //O estado é representado pelas letras de (A-H)
-     scanf("%s", &estado1);
+     scanf(" %s", &estado1);
+     
 
      printf(" Digite o código da carta (ex:A01):"); //O código da carta é formado pela letra referente ao estado e o número da cidade que reprenta a cidade de (01-04)
      scanf(" %s", codigo1);
