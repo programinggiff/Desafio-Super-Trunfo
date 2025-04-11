@@ -57,7 +57,7 @@ int main() {
      printf(" Digite o estado (A-H):"); //O estado é representado pelas letras de (A-H)
      scanf(" %c", &estado2);
 
-     printf(" Digite o código da carta:"); //O código da carta é formado pela letra referente ao estado e o número da cidade que reprenta a cidade de (01-04)
+     printf(" Digite o código da carta (ex:B01):"); //O código da carta é formado pela letra referente ao estado e o número da cidade que reprenta a cidade de (01-04)
      scanf(" %3s", codigo2);
 
      printf(" Digite o nome da cidade:");
